@@ -53,7 +53,7 @@ make install
 ```bash
 cmake -G "Unix Makefiles" -DLLVM_ENABLE_ASSERTIONS=On -DCMAKE_BUILD_TYPE=Release ~/llvmtest/llvm
 ```
-（EricWang1358注释）如果安装它的流程，llvm文件夹并非在根目录下，而是在llvm文件夹中，所以需要调整路径。同时，在此步骤前，确保cmake 和 essentials已经安装到16.04虚拟机中。20.04由于gcc版本过新，make时会出现找不到ustat包等情况，这也是为什么重新下载ubuntu16.04这一16年发行的虚拟机版本的原因）
+（EricWang1358注释）如果安装它的流程，llvm文件夹并非在根目录下，而是在llvmtest文件夹中，所以需要调整路径。同时，在此步骤前，确保cmake 和 essentials已经安装到16.04虚拟机中。20.04由于gcc版本过新，make时会出现找不到ustat包等情况，这也是为什么重新下载ubuntu16.04这一16年发行的虚拟机版本的原因）
 
 编译过程可能需要两三个小时，请耐心等待。
 （EricWang1358注释）现在的高性能电脑使用 make -j6 或者 make -j8可以在十分钟以内编译完成。
