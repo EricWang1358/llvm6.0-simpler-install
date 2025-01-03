@@ -1,5 +1,8 @@
 # llvm6.0-simpler-install
 llvm6.0 simpler install steps on Ubuntu16.04
+通过百度网盘分享的文件：llvm6.0.0
+链接：https://pan.baidu.com/s/1f1XltQJuThjKiK60o5Tmzg?pwd=ih74 
+提取码：ih74
 # Linux环境下LLVM 6.0 + clang安装步骤
 
 本文详细介绍了在Linux环境下安装LLVM 6.0和clang的步骤。LLVM是一个开源的编译器基础设施项目，而clang是LLVM项目中的一个C语言家族前端。通过本文的指导，您将能够在Linux系统上成功安装并配置LLVM和clang。
